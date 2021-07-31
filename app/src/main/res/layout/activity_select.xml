@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+        />
+
+
+
+    <RadioGroup
+        android:layout_marginTop="75dp"
+        android:id="@+id/groupradio"
+        android:layout_below="@+id/toolbar"
+
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id1"
+            android:text="AES"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id2"
+            android:text="DES"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id3"
+            android:text="AESS"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id4"
+            android:text="AES"
+            android:textSize="20dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radia_id5"
+            android:text="NO Algorithm"
+            android:textSize="20dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/clear"
+        android:layout_below="@+id/groupradio"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/clear"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/groupradio"
+        android:layout_marginTop="200dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="5dp"
+        />
+
+
+    <!-- add clear button for clear the selected item-->
+
+
+</RelativeLayout>

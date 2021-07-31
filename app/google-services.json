@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69697500820",
+    "project_id": "sakira2-16914",
+    "storage_bucket": "sakira2-16914.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69697500820:android:3448043882195f5e236681",
+        "android_client_info": {
+          "package_name": "com.example.sakira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69697500820-v16ce6qse50bg3f5ipt1guk1mvcp6ps7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWA4IW5JahYnwHEMeYT8qcGlnT7JlfGmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69697500820-v16ce6qse50bg3f5ipt1guk1mvcp6ps7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
